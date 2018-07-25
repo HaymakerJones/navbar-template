@@ -14,12 +14,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { CdkBreakpointComponent } from './cdk-breakpoint/cdk-breakpoint.component';
 import { TestComponent } from './test/test.component';
+import { MegaMenuComponent } from './mega-menu/mega-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CdkBreakpointComponent,
-    TestComponent
+    TestComponent,
+    MegaMenuComponent
   ],
   imports: [
     BrowserModule,
